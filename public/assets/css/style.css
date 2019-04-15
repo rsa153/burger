@@ -1,27 +1,28 @@
-
 body {
-    background: url("burger.jpg");
-    color: white;
+  background: url("burger.jpg");
+  color: white;
+}
+h1 {
+  text-align: center;
+  font-size: 3em;
 }
 
-#burger-name {
-    font: 12em;
+.not-devoured,
+.devoured,
+.add-burger {
+  font-size: 1.5em;
+  text-align: center;
 }
+
+button {
+  font-size: 1em;
+}
+
 li {
-    padding: 5px;
-    margin: 5px;
-  }
-  
-  .label {
-    font-weight: bold;
-  }
-  
-  .create-update-form {
-    padding: 5px;
-    margin: 5px;
-  }
-  
-  .form-group {
-    margin-bottom: 5px;
-  }
-  
+  padding: 5px;
+  margin: 5px;
+}
+
+.form-group {
+  margin-bottom: 1em;
+}
